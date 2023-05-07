@@ -40,7 +40,8 @@
   border-radius: 16px;
   border: 1px solid black;
   color: #007bff;
-  padding: 3px
+  padding: 3px;
+  z-index: 99999
 }
 
 

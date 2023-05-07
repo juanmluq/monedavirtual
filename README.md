@@ -1,26 +1,28 @@
-##  Casino Online Diamante
+##  Potenciar Cash
 
 
 Iniciar
 Clona el repositorio y haz `npm install` y `npm start` en la carpeta raiz
 
-
 ya puedes usar la página!
 
+Tambien la puedes ver en: 
 
 
-La app tiene 5 rutas:
+La app tiene 9 rutas:
 
  - **"/"**: Nuestra Home donde se puede visualizar info y cantidad de clientes en linea.
- - **"/games"**: en esta ruta, vamos a tener las distintas plataformas donde jugar.
- - **"/info"**: Info acerca del casino.
-  - **"/promos"**: Promociones vigentes.
- - **"/registrarse"**: Formulario para registrarse. Al completarlo se envia un mail a una casilla de correo definada con todos los datos proporcionados. Tambien tiene opcion de clickear en el logo de whatsapp e ir al chat directamente.
-  - **"/invertir"**: Acerca de como invertir en el casino. En la misma tenemos una ruta hacia el home de inversores.
+ - **"/infovideos"**: Info en videos acerca de moneda virtual.
+ - **"/invertir"**: Acerca de como invertir en nuestra web. En la misma tenemos una ruta hacia el home de inversores.
+- **"/sobreMoneda"**: Info sobre moneda virtual TPC.
+ - **"/registrarse"**: Formulario para registrarse.
+- **"/acceder"**: Seccion para acceder.
+ - **"/homeInversores"**: Seccion de usuario donde se puede trabajar con las monedas.
+ - **"/comprar"**: Seccion para comprar monedas.
+ - **"/vender"**: Seccion para vender monedas.
 
 
 
-
-#� �A�p�p� �C�a�s�i�n�o�
+#� �A�p�p� �M�o�n�e�d�a� �V�i�r�t�u�a�l
 �
 �

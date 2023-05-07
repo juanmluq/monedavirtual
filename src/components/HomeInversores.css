@@ -1,0 +1,198 @@
+.inve{
+    display: flex;
+    padding: 2px;
+}
+
+.encab{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+    .encab, .mostrarSal{
+        font-size: x-small;
+    }
+}
+
+.mostrarSal{
+cursor: pointer;
+}
+
+.user{
+    padding: 5px;
+    text-align: center;
+    border: solid 5px rgb(192, 187, 187);
+}
+
+#cambioPassword{
+    display: flex;
+    position: relative;
+    left: 173px;
+    margin-top: 53px;
+    z-index: 9999;
+    text-align: center;
+     visibility: hidden; 
+}
+
+#cambioDatos{
+    display: none;
+    position: relative;
+    flex-direction: column;
+    z-index: 9997;
+}
+
+.buttonPass{
+    background-color: red;
+    height: 14%;
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: -6px;
+}
+
+@media(max-width: 500px){
+    #cambioPassword{
+        left: 107px;
+        font-size: x-small;
+        top: 9px;
+    }
+}
+
+.invinterno{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+}
+
+.invinterno > img {
+    border: groove 7px
+}
+
+@media (max-width: 530px){
+    .invinterno > img {
+        width: 100%;
+    }
+}
+
+.imgin{
+    width: 100%;
+}
+
+.venta{
+    display: flex;
+}
+
+.row{
+    width: 60%;
+    align-content: space-around;
+}
+
+.cajatarj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.atam{
+display: contents;
+}
+
+.imgGif{
+    z-index: -1;
+    display: flex;
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: -webkit-fill-available;
+}
+
+.tarjta{
+ width: 20%;
+    margin: 3%;
+    border-radius: 50%;
+        text-decoration-line: none;
+        -webkit-transform:scale(1.3);transform:scale(1.03);
+      box-shadow: 0px 0px 5px 5px #1e9aec;
+      -webkit-box-shadow: 0px 0px 5px 5px #1e9aec70;
+      transition: transform 2s;    
+}
+
+.formul{
+    display: inline-grid;
+    text-align: center;
+     border: 1px solid;
+      margin-Left: 1px; 
+    margin-Right: 1px; 
+    padding : 6px
+}
+
+
+@media (max-width: 750px) {
+    .venta{
+        flex-direction: column;
+        font-size: small;
+    }
+}
+
+.cajauser{
+    display: flex;
+    position: absolute;
+    top: 34px;
+    z-index: 99999;
+}
+
+input[id^="spoiler"]{
+    display: none;
+   }
+   input[id^="spoiler"] + label {
+     display: block;
+     width: 60px;
+     height: 10%;
+     left: 1%;
+     padding: 5px 5px;
+     background: transparent;
+     color: white;
+     text-align: center;
+     font-size: 15px;
+     border-radius: 2px;
+     cursor: pointer;
+     transition: all .6s;
+     border: 1px solid rgba(255, 255, 255, 0.466);
+   }
+   input[id^="spoiler"]:checked + label {
+     color: #333;
+     background: white;
+   }
+   input[id^="spoiler"] ~ .spoiler {
+     width: auto;
+     height: 0;
+     overflow: hidden;
+     opacity: 0;
+     margin-left: -60px; 
+     padding: 10px; 
+     background: #eee;
+     border: 1px solid ;
+     border-radius: 1px;
+     transition: all .6s;
+     color: black;
+   }
+
+@media (max-width: 500px) {
+    .spoiler{
+        font-size: x-small;
+    }
+}
+
+input[id^="spoiler"]:checked + label + .spoiler{
+    height: auto;
+    opacity: 1;
+    padding: 10px;
+    margin-top: 51px;
+    background-color: #fffffff5;
+    color: #007bff;
+    /* background-color: #000000e6; */
+    @media (max-width: 440px) {
+    margin-top: 41px;
+ }
+}

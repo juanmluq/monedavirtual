@@ -1,0 +1,43 @@
+
+.navBtn{
+    display: flex;
+    position: absolute;
+    right: 3%;
+    margin-top: 1px;
+    z-index: 99999999;
+}
+
+@media(min-width: 640px){
+.navBtn{
+    top: 0%;
+    margin-top: 2px;
+}
+}
+
+.link{
+margin-top: 0.5%;
+margin-Right: 5%
+}
+
+.nav-link{
+padding: 10px;
+margin-Top: 0.5%
+}
+
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #00a6ff75;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.btn{ 
+    border: solid 1px white;
+    background-color: black;
+    color: azure;
+}
+
+    @media(max-width: 440px){ 
+        .nav, .btn{    
+          font-size: x-small;
+          }
+        }

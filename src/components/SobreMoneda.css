@@ -1,0 +1,16 @@
+.promo{
+    padding: 4%;
+    background-color: #000000b8;
+    border: 1px solid;
+
+}
+
+@media(max-width: 550px){
+.promo{
+    font-size: small;
+}}
+
+@media(max-width: 550px){
+    h1{
+        font-size: x-large;
+    }}

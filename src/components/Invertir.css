@@ -1,0 +1,38 @@
+.inv{
+    padding: 20px;
+    padding-right: 6%;
+    flex-direction: column;
+
+}
+.centrPrinc{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    background-color: #000000b8;
+}
+
+.centr{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    bottom: 25px;
+    right: 25px;
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid black;
+    color: #007bff;
+    padding: 3px;
+    width: fit-content;
+    z-index: 99999;
+}
+
+.centrdos{
+    display: flex;
+    position: relative;
+    align-items: center; 
+}
+
+@media(max-width: 550px){
+    .inv, h5 {
+        font-size: small;
+    }}

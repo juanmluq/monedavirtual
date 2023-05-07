@@ -1,0 +1,46 @@
+.regist {
+  position: relative;
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+
+  background-color: var(--card-bkg-color);
+  color: white;
+
+  padding: 0.25rem;
+  margin: 5% 10%;
+  width: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+ .info{
+ padding: 2%;   
+}
+
+    @media(max-width: 550px){
+      .info, .cent {
+        font-size: small
+      }
+    }
+
+.name{
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.cent{
+  display: flex;
+  position: fixed;
+  align-items: center;
+  bottom: 25px;
+  right: 25px;
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid black;
+  color: #007bff;
+  padding: 3px
+}
+
+

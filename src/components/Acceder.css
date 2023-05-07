@@ -1,0 +1,28 @@
+.acceder{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.formular{
+    display: flex;
+    z-index: 111;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border: groove 7px white;
+    padding: 6px;
+}
+
+.inp{ 
+    color: rgba(0, 0, 255, 0.747);
+}
+
+@media (max-width: 600px){
+    .formular{
+        width: 70%;
+        left: 15%;
+
+    }
+}

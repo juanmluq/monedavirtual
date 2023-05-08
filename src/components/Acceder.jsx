@@ -51,7 +51,7 @@ function handleSubmit(e){
 
 return(
     <div className="acceder">    
-    <div >
+    <div style={{display:"flex", flexDirection:"column", alignItems:"center"}}>
       <h1 style={{textAlign:"center"}}>Iniciar sesión</h1>
       
       <form className="formular" onSubmit={(e) => handleSubmit(e)}>

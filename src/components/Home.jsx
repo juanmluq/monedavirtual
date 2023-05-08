@@ -93,21 +93,21 @@ if(personas <= 611 && !crece && creceSeg){
 
         <div className='bienvenido'>
           <div className='subbienv' >
-            <h2>Ingresa</h2>
+            <h2>Ingresá</h2>
               <h8>Registrate o envianos un whatsapp.</h8>
           </div>
           <div className='subbienv'>
-            <h2>Deposita</h2>
+            <h2>Depositá</h2>
               <h8>Realiza un primer deposito.</h8>
           </div>
           <div className='subbienv'>
-            <h2>Vende</h2>
+            <h2>Vendé</h2>
               <h8>Vende a u nuevo usuario.</h8>
               <h8>Recibes usuario y clave nuevos.</h8>
           </div>
          
           <div className='subbienv'>
-           <h2>Abona</h2>
+           <h2>Ganá</h2>
             <h8>Ya tienes tu 1er ganancia!</h8>
           </div>
           <br/>

@@ -83,6 +83,7 @@ useEffect(()=> {
 
     return (
       <div>
+      <br />
       <div className="regist">
      
         <br />

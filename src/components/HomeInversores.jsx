@@ -205,7 +205,7 @@
       e.preventDefault();
       if(usuario.saldo[0] == 0){
         if( cargaSaldo.saldo[0] !== "null"){
-          var recargarSaldoMp = Number(cargaSaldo.saldo[0]) * 1000
+          var recargarSaldoMp = Number(cargaSaldo.saldo[0]) / 3
           // dispatch(putUser(cargaSaldo, usuario.id));
        setCargaSaldo({
        saldo:["null"]

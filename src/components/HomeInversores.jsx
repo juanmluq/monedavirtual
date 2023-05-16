@@ -402,7 +402,7 @@
           </div>
           < a style={{backgroundColor:"transparent", cursor:"pointer"}} onClick={()=> hanldleContraseña()}><IoSettingsSharp/> Cambiar Contraseña </a>
           <br />
-          <a style={{ width:"auto", backgroundColor:"transparent", cursor:"pointer"}} href="https://api.whatsapp.com/send?phone=1176351958"><TfiHeadphoneAlt/> Ayuda</a>
+          <a style={{ width:"auto", backgroundColor:"transparent", cursor:"pointer"}} href="https://api.whatsapp.com/send?phone=+5491176351958"><TfiHeadphoneAlt/> Ayuda</a>
 
           <br />
           <br />

@@ -153,6 +153,12 @@ display: contents;
     z-index: 99999;
 }
 
+@media(max-width: 750px){
+.monCom{
+font-size: small;
+    }
+}
+
 input[id^="spoiler"]{
     display: none;
    }

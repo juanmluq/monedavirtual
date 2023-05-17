@@ -36,13 +36,6 @@ cursor: pointer;
     width: 219px;
 }
 
-@media (max-width: 500px) {
-    .cambioPassword{
-          width: 167px;
-
-    }
-}
-
 #cambioDatos{
     display: none;
     position: relative;
@@ -57,13 +50,23 @@ cursor: pointer;
     position: relative;
     left: 20px;
     top: -6px;
+    border-radius: 16px;
+    padding: 0px 7px;
 }
+
+@media(max-width: 500px){
+    .buttonPass{
+     padding: 0px 0px;
+    }
+    
 
 @media(max-width: 500px){
     #cambioPassword{
         left: 107px;
         font-size: x-small;
         top: 9px;
+        width: 167px;
+
     }
 }
 

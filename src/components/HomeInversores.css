@@ -26,12 +26,21 @@ cursor: pointer;
 
 #cambioPassword{
     display: flex;
-    position: relative;
+    justify-content: center;
     left: 173px;
     margin-top: 53px;
-    z-index: 9999;
+    position: relative;
     text-align: center;
-     visibility: hidden; 
+    visibility: hidden;
+    z-index: 9999;
+    width: 219px;
+}
+
+@media (max-width: 500px) {
+    .cambioPassword{
+          width: 167px;
+
+    }
 }
 
 #cambioDatos{

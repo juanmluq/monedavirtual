@@ -55,7 +55,7 @@
     const arreglosal = [{valor:"2", codif:"%34%30%30", carga:"4"}, {valor:"5", codif:"%31%30%30%30%30", carga:"10"},  {valor:"8", codif:"%31%36%30%30", carga:"16"},  {valor:"14", codif:"%32%38%30%30", carga:"28"},  {valor:"20", codif:"%34%30%30%30", carga:"40"},  {valor:"25", codif:"%35%30%30%30", carga:"50"},  {valor:"0", codif:"%30%30%30%30", carga:"0"}]
     var indexSaldo = 6; //este valor dice que el saldo del cliente es cero
     const cantidadTickets = [1, 2, 3]
-    const [isLoading, setIsLoading] = useState(6)
+    const [isLoading, setIsLoading] = useState(3)
     const [inputPassword, setInputPassword] = useState({
       password: ""
     });
@@ -339,7 +339,7 @@
         if (isLoading > 0) {
          return renderSpinner();
         }
-         else if(isLoading === 0 && usuario !== undefined && usuario.access == true) { 
+         else if(usuario !== undefined && usuario.access == true) { 
        return(         
          <div>
         <div className="encab" >

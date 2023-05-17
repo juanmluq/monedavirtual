@@ -16,7 +16,7 @@ function Nav() {
         <a class="nav-link" href="/infovideos">Videos</a>
       </li>
       <li class="nav-item" >
-        <a class="nav-link" href="/invertir">Invertir</a>
+        <a class="nav-link" href="/invertir">Info</a>
       </li>
     </nav>
       <div className='navBtn'>

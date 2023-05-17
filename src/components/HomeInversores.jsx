@@ -549,7 +549,7 @@
     </div>
     <br />
     <div style={{display:"flex", justifyContent:"center", textAlign: "center", flexDirection:"column", backgroundColor:"#000000a1", border: "solid 2px"}}>
-      <div>
+      <div className="monCom">
         <br />
       <h6 >Si no dispone de monedas puede comprar más seleccionando el valor de su moneda:</h6>
         Comprar Monedas

@@ -54,7 +54,7 @@ if(personas <= 611 && !crece && creceSeg){
   return (
     <div className='home'>
       <div className='centrartres'>
-                <h6 style={{fontWeight:"700", paddingTop:"3px", textAlign:"center"}} > En que podemos ayudarte? </h6> 
+                <h7 style={{fontWeight:"700", textAlign:"center"}} > En que podemos ayudarte? </h7> 
        </div>
      <div className='centrardos'>
       <a style={{ width:"auto"}} href="https://api.whatsapp.com/send?phone=+5491176351958">  
@@ -68,6 +68,17 @@ if(personas <= 611 && !crece && creceSeg){
       {/* { <video controls>
           <source src="https://player.vimeo.com/video/338795767?h=9e40727958&amp;muted=1&amp;autoplay=1&amp;loop=1&amp;transparent=0&amp;background=1&amp;app_id=122963" />
         </video> }  */}
+              {/* <br/>
+              <br/>
+              <br/>
+
+              <div className='texto'>
+          <h1>Potenciar Cash</h1>
+         
+        </div>
+        
+        <h5 className='tex'>Moneda Vitual TPC</h5>*/}
+
               <br/>
               <br/>
               <br/>
@@ -78,6 +89,7 @@ if(personas <= 611 && !crece && creceSeg){
         </div>
         
         <h5 className='tex'>Moneda Vitual TPC</h5>
+
 
         <div style={{ display:"flex", position:"relative", justifyContent:"flex-end", margin:"2%"}}>
         <div className='conect'>  
@@ -133,7 +145,6 @@ if(personas <= 611 && !crece && creceSeg){
         <br/>
         <br />
         <footer className='piePagin'>
-        <br />
 
         <div style={{display: "flex", position: "relative", justifyContent: "space-between", margin:"0% 5%" }}>
           <div> <BsWhatsapp/> (011) 7635 1958 </div>
@@ -144,15 +155,13 @@ if(personas <= 611 && !crece && creceSeg){
         <a style={{color: "white"}} href='https://www.instagram.com/potenciarcash/'><BsInstagram/> Instagram</a>
         <a style={{color: "white"}} href='https://www.facebook.com/profile.php?id=100066945122334'> <BsFacebook/> Facebook</a>
         </div>
-        <br />
         <div style={{display: "flex", position: "relative", justifyContent:"center" }}>
           Potenciar Cash te ofrece Moneda Virtual TPC!
           <br />
           Con Moneda Vitual TPC multiplicas tu dinero!
           <br />
         </div>
-        <a style={{display: "flex", position: "relative", justifyContent:"center" }} href="/terminosycondiciones">Terminos y condiciones</a> 
-        <br />
+        <a style={{display: "flex", position: "relative", justifyContent:"center", paddingBottom:"10px" }} href="/terminosycondiciones">Terminos y condiciones</a> 
         </footer>
       </div> 
         );

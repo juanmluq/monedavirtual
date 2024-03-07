@@ -1,17 +1,9 @@
-
 .navBtn{
     display: flex;
     position: absolute;
     right: 3%;
     margin-top: 1px;
     z-index: 99999999;
-}
-
-@media(min-width: 640px){
-.navBtn{
-    top: 0%;
-    margin-top: 2px;
-}
 }
 
 .link{
@@ -36,8 +28,14 @@ margin-Top: 0.5%
     color: azure;
 }
 
-    @media(max-width: 440px){ 
-        .nav, .btn{    
-          font-size: x-small;
-          }
-        }
+@media(min-width: 640px){
+.navBtn{
+    top: 0%;
+    margin-top: 2px;
+    }
+}
+@media(max-width: 440px){ 
+    .nav, .btn{    
+      font-size: x-small;
+      }
+}

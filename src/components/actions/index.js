@@ -3,7 +3,6 @@ import axios from "axios";
 export function getUsers(){
     return async function(dispatch){
         var json = await axios.get("https://backmonedas-production.up.railway.app/usermonedas");
-
         return dispatch({
             type: "GET_USERS",
             payload: json.data
@@ -38,8 +37,6 @@ export function putPagoPending(payload, id){
         return resp
     }
 }
-
-
 
 export function putPassword(payload, id){
     return async function(){

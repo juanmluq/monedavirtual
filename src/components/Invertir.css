@@ -2,7 +2,6 @@
     padding: 20px;
     padding-right: 6%;
     flex-direction: column;
-
 }
 .centrPrinc{
     display: flex;
@@ -35,4 +34,5 @@
 @media(max-width: 550px){
     .inv, h5 {
         font-size: small;
-    }}
+    }
+}

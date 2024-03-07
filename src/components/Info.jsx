@@ -6,8 +6,7 @@ import clip2 from "../videos/clip2.mp4"
 export default function Info() {
   return (
     <div className='centradoinfo'>
-      <br />      
-     
+        <br />      
         <h3>Info Videos</h3>
         <br />
         <div>
@@ -20,7 +19,7 @@ export default function Info() {
         <br />
         El siguiente video informa como comprar monedas:
         <br />
- { <video controls className='vid'>
+         { <video controls className='vid'>
           <source  src={clip1} />
         </video> } 
         <br />
@@ -30,7 +29,6 @@ export default function Info() {
         { <video controls className='vid'>
           <source  src={clip2} />
         </video> } 
-
         {/* { <video controls>
           <source src="https://player.vimeo.com/video/338795767?h=9e40727958&amp;muted=1&amp;autoplay=1&amp;loop=1&amp;transparent=0&amp;background=1&amp;app_id=122963" />
         </video> }  */}

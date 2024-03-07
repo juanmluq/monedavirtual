@@ -142,7 +142,7 @@ export default function TerminosCond() {
             <br />
             Si tienes alguna pregunta sobre estos Términos y Condiciones o deseas compartir cualquier otro comentario sobre Potenciar Cash, puedes ponerte en contacto con nosotros a través de los medios de comunicación de nuestro sitio.
         <br />
-        </div>
+      </div>
     </div>
   );
 }

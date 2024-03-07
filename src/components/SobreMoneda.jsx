@@ -7,7 +7,6 @@ export default function SobreMoneda(){
             <br />
             <h3>Moneda Virtual TPC</h3>
             {/* <img className="imginfo" src='https://www.laopinionsemanario.com.ar/wp-content/uploads/2022/03/casino-magic-poker-en-vivo.jpg' alt='img'></img> */}
-
             <h7> Moneda Virtual TPC llega a ofrecer un sistema de ganancias innovador, donde podes multiplicador tu ganancia solo vendiendo. 
                 <br />
                 Moneda Virtual TPC es una moneda triplicadora, es decir por cada moneda que vendas se generan 3 nuevas monedas.
@@ -22,8 +21,7 @@ export default function SobreMoneda(){
                 <br />
                  reflejadas aquellas vigentes en ciertas circunstancias.
                 <br />
-            
             </h7>
-        </div>
+         </div>
     )
 }

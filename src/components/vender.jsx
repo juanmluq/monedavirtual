@@ -65,16 +65,15 @@ export default function Vender(){
     return(
         <div>
             <img className="imgVender" src="https://usagif.com/wp-content/uploads/gif/confetti-16.gif" alt="gif felicitaciones"></img>
-        <div className="txtVender">
-            <h3> Felicitaciones!</h3>
-            <h3>  Moneda vendida! </h3> 
-            <br />
-            <h5> No salga de esta pagina hasta se actualice el saldo de su comprador en: <h5 style={{color:"red", fontWeight:"700"}}>{segundos} segundos</h5> </h5>
-{/* 
-            <div style={{display:"flex", justifyContent:"center"}}>
-             <Link style={{width:"60px"}} to={"/home/" + id} >Volver</Link>
-             </div> */}
-        </div>
+            <div className="txtVender">
+                <h3> Felicitaciones!</h3>
+                <h3>  Moneda vendida! </h3> 
+                <br />
+                <h5> No salga de esta pagina hasta se actualice el saldo de su comprador en: <h5 style={{color:"red", fontWeight:"700"}}>{segundos} segundos</h5> </h5>
+                {/* <div style={{display:"flex", justifyContent:"center"}}>
+                 <Link style={{width:"60px"}} to={"/home/" + id} >Volver</Link>
+                 </div> */}
+            </div>
         </div>
     )
 }

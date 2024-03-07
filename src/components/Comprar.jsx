@@ -58,11 +58,7 @@ export default function Comprar(){
         }
     }
     saldoAEnviar();
-//   setTimeout( () => {
-//  console.log(`?x=${encodeURIComponent('test?')}`)        
-//     },2000)
      saldoACargar.saldo = sal
-
      setTimeout( () => {
         dispatch(putUser(saldoACargar , idUser));        
     },2000)
@@ -71,13 +67,12 @@ export default function Comprar(){
     return(
         <div>
             <img className="imgVender" src="https://usagif.com/wp-content/uploads/gif/confetti-16.gif" alt="gif felicitaciones"></img>
-        <div className="txtVender">
-            <h3> Felicitaciones!</h3>
-            <h3>  Compraste 3 monedas! </h3> 
-            <br />
-            <h5> No salga de esta pagina hasta se actualice su saldo en: <h5 style={{color:"red", fontWeight:"700"}}>{segundos} segundos</h5> </h5>
-
-        </div>
+            <div className="txtVender">
+                <h3> Felicitaciones!</h3>
+                <h3>  Compraste 3 monedas! </h3> 
+                <br />
+                <h5> No salga de esta pagina hasta se actualice su saldo en: <h5 style={{color:"red", fontWeight:"700"}}>{segundos} segundos</h5> </h5>
+            </div>
         </div>
     )
 }

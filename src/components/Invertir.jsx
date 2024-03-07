@@ -4,12 +4,10 @@ import "./Invertir.css";
 export default function Invertir(){
     return(
     <div className="centrPrinc">
-
         <div className="inv">
-        <br />
-
+            <br />
             <h3>Invertir en  Moneda Virtual TPC</h3>
-              <br />
+            <br />
             <h7>   Moneda Virtual TPC (TRIPLICADORA) te da la posibilidad de que multipliques tu dinero.
                 <br />
                     Si queres ganar dinero de manera segura, Moneda Virtual TPC te da la oportunidad!
@@ -55,6 +53,6 @@ export default function Invertir(){
             <br />
             <br />
          </div>
-        </div>
+       </div>
     )
 }

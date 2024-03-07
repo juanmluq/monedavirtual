@@ -21,12 +21,12 @@ function Nav() {
     </nav>
       <div className='navBtn'>
         <Link to="/registrarse" className='link'>
-        <button className='btn'>Registrarse</button>
+          <button className='btn'>Registrarse</button>
         </Link>
         <Link to="/acceder" className='link'>
-        <button className='btn'>Acceder</button>
+          <button className='btn'>Acceder</button>
         </Link>
-        </div>
+      </div>
     </div>
   );
 };

@@ -8,12 +8,6 @@
     justify-content: space-between;
 }
 
-@media (max-width: 500px) {
-    .encab, .mostrarSal{
-        font-size: x-small;
-    }
-}
-
 .mostrarSal{
 cursor: pointer;
 }
@@ -54,21 +48,6 @@ cursor: pointer;
     padding: 0px 7px;
 }
 
-@media(max-width: 500px){
-    .buttonPass{
-     padding: 1px 6px;
-    }
-}
-
-@media(max-width: 500px){
-    #cambioPassword{
-        left: 107px;
-        font-size: x-small;
-        top: 9px;
-        width: 167px;
-    }
-}
-
 .invinterno{
     display: flex;
     position: relative;
@@ -78,12 +57,6 @@ cursor: pointer;
 
 .invinterno > img {
     border: groove 7px
-}
-
-@media (max-width: 530px){
-    .invinterno > img {
-        width: 100%;
-    }
 }
 
 .imgin{
@@ -119,31 +92,23 @@ display: contents;
 }
 
 .tarjta{
- width: 20%;
+    width: 20%;
     margin: 3%;
     border-radius: 50%;
-        text-decoration-line: none;
-        -webkit-transform:scale(1.3);transform:scale(1.03);
-      box-shadow: 0px 0px 5px 5px #1e9aec;
-      -webkit-box-shadow: 0px 0px 5px 5px #1e9aec70;
-      transition: transform 2s;    
+    text-decoration-line: none;
+    -webkit-transform:scale(1.3);transform:scale(1.03);
+    box-shadow: 0px 0px 5px 5px #1e9aec;
+    -webkit-box-shadow: 0px 0px 5px 5px #1e9aec70;
+    transition: transform 2s;    
 }
 
 .formul{
     display: inline-grid;
     text-align: center;
-     border: 1px solid;
-      margin-Left: 1px; 
+    border: 1px solid;
+    margin-Left: 1px; 
     margin-Right: 1px; 
     padding : 6px
-}
-
-
-@media (max-width: 750px) {
-    .venta{
-        flex-direction: column;
-        font-size: small;
-    }
 }
 
 .cajauser{
@@ -153,52 +118,43 @@ display: contents;
     z-index: 99999;
 }
 
-@media(max-width: 750px){
-.monCom{
-font-size: small;
-    }
+input[id^="spoiler"]{
+ display: none;
 }
 
-input[id^="spoiler"]{
-    display: none;
-   }
-   input[id^="spoiler"] + label {
-     display: block;
-     width: 60px;
-     height: 10%;
-     left: 1%;
-     padding: 5px 5px;
-     background: transparent;
-     color: white;
-     text-align: center;
-     font-size: 15px;
-     border-radius: 2px;
-     cursor: pointer;
-     transition: all .6s;
-     border: 1px solid rgba(255, 255, 255, 0.466);
-   }
-   input[id^="spoiler"]:checked + label {
-     color: #333;
-     background: white;
-   }
-   input[id^="spoiler"] ~ .spoiler {
-     width: auto;
-     height: 0;
-     overflow: hidden;
-     opacity: 0;
-     margin-left: -60px; 
-     padding: 10px; 
-     background: #eee;
-     border: 1px solid ;
-     border-radius: 1px;
-     transition: all .6s;
-     color: black;
-   }
+input[id^="spoiler"] + label {
+ display: block;
+ width: 60px;
+ height: 10%;
+ left: 1%;
+ padding: 5px 5px;
+ background: transparent;
+ color: white;
+ text-align: center;
+ font-size: 15px;
+ border-radius: 2px;
+ cursor: pointer;
+ transition: all .6s;
+ border: 1px solid rgba(255, 255, 255, 0.466);
+}
 
-@media (max-width: 500px) {
-    .spoiler{
-        font-size: x-small;
-    }
+input[id^="spoiler"]:checked + label {
+ color: #333;
+ background: white;
+}
+
+input[id^="spoiler"] ~ .spoiler {
+ width: auto;
+ height: 0;
+ overflow: hidden;
+ opacity: 0;
+ margin-left: -60px; 
+ padding: 10px; 
+ background: #eee;
+ border: 1px solid ;
+ border-radius: 1px;
+ transition: all .6s;
+ color: black;
 }
 
 input[id^="spoiler"]:checked + label + .spoiler{
@@ -212,4 +168,50 @@ input[id^="spoiler"]:checked + label + .spoiler{
     @media (max-width: 440px) {
     margin-top: 41px;
  }
+}
+
+@media(max-width: 750px){
+.monCom{
+font-size: small;
+    }
+}
+
+@media (max-width: 750px) {
+    .venta{
+        flex-direction: column;
+        font-size: small;
+    }
+}
+
+@media (max-width: 530px){
+    .invinterno > img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .encab, .mostrarSal{
+        font-size: x-small;
+    }
+}
+
+@media(max-width: 500px){
+    .buttonPass{
+     padding: 1px 6px;
+    }
+}
+
+@media(max-width: 500px){
+    #cambioPassword{
+        left: 107px;
+        font-size: x-small;
+        top: 9px;
+        width: 167px;
+    }
+}
+
+@media (max-width: 500px) {
+    .spoiler{
+        font-size: x-small;
+    }
 }

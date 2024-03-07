@@ -6,11 +6,13 @@
 }
 
 @media(max-width: 550px){
-.promo{
+    .promo{
     font-size: small;
-}}
+    }
+}
 
 @media(max-width: 550px){
     h1{
         font-size: x-large;
-    }}
+    }
+}

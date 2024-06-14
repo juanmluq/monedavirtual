@@ -35,13 +35,13 @@ export default function Invertir(){
                     Los pesos virtuales no son retirables. El objetivo de monedas virtuales TPC es vender para multiplicar tu dinero.
                      <br />
                     El minimo para empezar a invertir son $2000, pero podes elegir el monto que vos quieras hasta $25.000.
-                    Con $2.000 podes ganar $5.000
+                    Con $2.000 podes ganar $4.800
                     <br />
                     Con $5.000 podes ganar $12.000
                     <br />
-                    Con $8.000 podes ganar $20.000
+                    Con $8.000 podes ganar $19.200
                     <br />
-                    Con $14.000 podes ganar $72.000
+                    Con $14.000 podes ganar $33.600
                     <br />
                     Con $20.000 podes ganar $48.000
                     <br />
